@@ -18,6 +18,7 @@ export const CategoriesScreen = () => {
             data={CATEGORIES}
             keyExtractor={(item) => item.id}
             renderItem={({item}) => renderItem(item)}
+            numColumns={2}
         ></FlatList>
     );
 };
